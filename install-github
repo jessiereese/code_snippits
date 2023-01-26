@@ -1,0 +1,10 @@
+#set config
+usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+
+#Go to github page to generate token
+usethis::create_github_token() 
+
+devtools::install_github("user/repo"
+                         ,ref="main"
+                         ,auth_token = "tokenstring"
+                         )
