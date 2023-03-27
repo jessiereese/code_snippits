@@ -1,5 +1,6 @@
 ### Get a list of unique values across multiple columns 
 
+```
 library(dplyr)
 iris %>% 
   select(Sepal.Width, Species) %>% 
@@ -11,5 +12,7 @@ iris %>%
 [16] "4.2"        "2.3"        "versicolor" "2.8"        "2.4"       
 [21] "2.7"        "2.0"        "2.2"        "2.5"        "2.6"       
 [26] "virginica" 
+
+```
 
 See this [StackOverflow answer](https://stackoverflow.com/questions/7790732/unique-for-more-than-one-variable)
