@@ -8,3 +8,6 @@ devtools::install_github("user/repo"
                          ,ref="main"
                          ,auth_token = "tokenstring"
                          )
+
+# check to see whose github credentials are on a server profile
+usethis::git_sitrep() # 'situation report'
