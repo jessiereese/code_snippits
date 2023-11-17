@@ -1,5 +1,6 @@
 #set config
 usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+usethis::use_git_config(user.name = "Jessie Reese", user.email = "jessie.reese@birdconservancy.org")
 
 #Go to github page to generate token
 usethis::create_github_token() 
